@@ -7,3 +7,5 @@ def happy(request):
     return HttpResponse("第一次修改d")
 def happy2(request):
     return HttpResponse("第er次修改")
+def zy(request):
+    return HttpResponse("zy修改")
